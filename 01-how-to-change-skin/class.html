@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>换肤 class 方式</title>
+  <link rel="stylesheet" href="./class.css">
+</head>
+<body>
+  <button class="btn" data-skin="default">默认皮肤</button>
+  <button class="btn" data-skin="red">红色皮肤</button>
+  <button class="btn" data-skin="blue">蓝色皮肤</button>
+  <script>
+    document.addEventListener('click', function (e) {
+      document.documentElement.className = e.srcElement.dataset.skin 
+    })
+
+  </script>
+</body>
+</html>

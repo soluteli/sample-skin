@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>换肤 dom</title>
+  <link class="skin" rel="stylesheet" href="./dom.css">
+</head>
+<body>
+  <button class="btn" data-skin="">默认皮肤</button>
+  <button class="btn" data-skin="red">红色皮肤</button>
+  <button class="btn" data-skin="blue">蓝色皮肤</button>
+  <script>
+    function changeStyle(skin) {
+      let domSkin = document.querySelector('.skin')
+      domSkin.href = `./dom${skin ? '-' + skin : ''}.css`
+    }
+
+    document.addEventListener('click', function (e) {
+      changeStyle(e.srcElement.dataset.skin)
+    })
+  </script>
+</body>
+</html>

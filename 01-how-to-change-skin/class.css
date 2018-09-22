@@ -1,0 +1,13 @@
+html {
+  background-color: fff; 
+}
+
+
+html.red {
+  background-color: red;
+}
+
+
+html.blue {
+  background-color: blue;
+}

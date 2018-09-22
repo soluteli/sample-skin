@@ -1,0 +1,19 @@
+{
+  "name": "sample-skin",
+  "version": "1.0.0",
+  "description": "1. 类名切换 2. 动态改变 link 标签的 href",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "howto": "http-server ./01-how-to-change-skin",
+    "less-class": "parcel 02-class-less/index.html"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "less": "^3.8.1"
+  }
+}
