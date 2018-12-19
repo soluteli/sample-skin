@@ -5,3 +5,7 @@
 4. [使用Sass实现主题切换](https://www.jianshu.com/p/d47fb56e972c)
 5. [HeyUI组件库 | 如何实现在线切换主题](https://juejin.im/post/5be0fca7e51d456088083904)
 6. [webpack 自动生成多套主题](https://github.com/harsima/vue-backend/issues/6)
+
+### sass
+7. [scss 编译多套主题 - material](https://material.angular.io/guide/theming#multiple-themes)
+8. [译】介绍Sass Maps：用法跟例子](https://aotu.io/notes/2015/12/09/an-introduction-to-sass-maps/index.html)
